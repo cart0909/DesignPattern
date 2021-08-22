@@ -6,7 +6,7 @@ message("PUBLIC_HEADERS: ${PUBLIC_HEADERS}")
 message("PRIVATE_HEADERS: ${PRIVATE_HEADERS}")
 message("SOURCES: ${SOURCES}")
 
-add_library(DesignPattern SHARED
+add_library(DesignPattern STATIC
 ${SOURCES}
 ${PUBLIC_HEADERS}
 ${PRIVATE_HEADERS}
